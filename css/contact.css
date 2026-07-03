@@ -1,0 +1,21 @@
+:root {
+  --soft-pink: #fff1f7;
+}
+
+.contact-page .info-grid {
+  grid-template-columns: 1fr 1.1fr;
+}
+
+.contact-page .card {
+  background: var(--soft-pink);
+}
+
+.contact-page .contact-form {
+  background: white;
+}
+
+@media (max-width: 900px) {
+  .contact-page .info-grid {
+    grid-template-columns: 1fr;
+  }
+}

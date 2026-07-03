@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Siske Kastiel | Contact</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="navbar">
-        <a href="index.html" class="logo">Siske.</a>
-        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-          ☰
-        </button>
+        <a href="index.html" class="logo">Siske Kastiel</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">Over mij</a></li>
@@ -22,30 +21,40 @@
       </nav>
     </header>
 
-    <main class="page-content">
+    <main class="page-content contact-page">
       <section class="section">
-        <h1>Contact</h1>
-        <p>Heb je een vraag of wil je samenwerken? Neem contact met mij op.</p>
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:Siskekastiel2020@outlook.com">Siskekastiel2020@outlook.com</a></li>
-          <li>LinkedIn: <a href="https://linkedin.com/in/siske" target="_blank" rel="noopener">linkedin.com/in/siske</a></li>
-          <li>Locatie: Suriname</li>
-        </ul>
-      </section>
+        <div class="section-header">
+          <h1>Contact</h1>
+          <p>Heb je een vraag, wil je samenwerken of heb je een opdracht voor mij? Neem gerust contact op.</p>
+        </div>
 
-      <section class="section">
-        <form class="contact-form">
-          <label for="name">Naam</label>
-          <input id="name" name="name" type="text" placeholder="Jouw naam" />
+        <div class="info-grid">
+          <article class="card contact-card">
+            <h2>Contactgegevens</h2>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:siskekastiel@outlook.com">siskekastiel@outlook.com</a></li>
+              <li><strong>Telefoon:</strong> <a href="tel:+5977242909">+597 724 2909</a></li>
+              <li><strong>Locatie:</strong> Paramaribo, Suriname</li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/siske</a></li>
+            </ul>
+          </article>
 
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="Siskekastiel2020@outlook.com" />
+          <article class="card">
+            <form class="contact-form">
+              <label for="name">Naam</label>
+              <input id="name" name="name" type="text" placeholder="Jouw naam" required />
 
-          <label for="message">Bericht</label>
-          <textarea id="message" name="message" rows="5" placeholder="Schrijf je bericht hier..."></textarea>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="jouw@email.com" required />
 
-          <button class="btn btn-primary" type="submit">Verstuur</button>
-        </form>
+              <label for="message">Bericht</label>
+              <textarea id="message" name="message" rows="5" placeholder="Schrijf je bericht hier..." required></textarea>
+
+              <button class="btn btn-primary" type="submit">Verstuur</button>
+              <p class="form-status" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
       </section>
     </main>
 
