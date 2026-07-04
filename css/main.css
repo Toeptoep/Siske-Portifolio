@@ -227,6 +227,16 @@ h1 {
   font-size: 1.3rem;
 }
 
+.profile-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  margin: 0 auto 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
 .meta {
   color: var(--accent);
   font-weight: 600;
