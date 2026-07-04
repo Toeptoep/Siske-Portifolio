@@ -16,7 +16,13 @@
   margin: 0;
   padding: 0;
 }
-
+/* Profilfoto styling */
+.profile-img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: block;
+}
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: var(--bg);
